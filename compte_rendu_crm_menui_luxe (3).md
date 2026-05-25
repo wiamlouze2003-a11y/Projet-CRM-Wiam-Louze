@@ -12,7 +12,7 @@
 ## Table des matières
 
 1. [Introduction et contexte](#1-introduction-et-contexte)
-2. [Contexte statistique et marché](#2-contexte-statistique-et-marché)
+2. . [Contexte statistique et marché](#2-contexte-statistique-et-marché)
 3. [Méthodologie de recherche](#3-méthodologie-de-recherche)
 4. [Critères d'évaluation](#4-critères-dévaluation)
 5. [Analyse comparative des solutions](#5-analyse-comparative-des-solutions)
@@ -21,10 +21,10 @@
    - 5.3 Axonaut
    - 5.4 Pipedrive
    - 5.5 TopBox
-6. [Tableau comparatif synthétique](#6-tableau-comparatif-synthétique)
-7. [Recommandation finale](#7-recommandation-finale)
-8. [Plan de mise en œuvre suggéré](#8-plan-de-mise-en-œuvre-suggéré)
-9. [Annexes](#9-annexes)
+7. [Tableau comparatif synthétique](#6-tableau-comparatif-synthétique)
+8. [Recommandation finale](#7-recommandation-finale)
+9. [Plan de mise en œuvre suggéré](#8-plan-de-mise-en-œuvre-suggéré)
+10. [Annexes](#9-annexes)
 
 ---
 
@@ -46,6 +46,77 @@ Actuellement, la gestion des commandes clients repose sur des outils dispersés 
 ### 1.3 Objectif de l'étude
 
 Identifier et évaluer les solutions CRM du marché les mieux adaptées aux besoins spécifiques de Menui Luxe, en tenant compte des contraintes métier de la menuiserie : cycles de vente longs, devis complexes, coordination fabrication/pose, et service après-vente.
+
+### 1.4 La gestion des commandes en menuiserie : un besoin spécifique
+
+La gestion des commandes dans une entreprise de menuiserie haut de gamme est fondamentalement différente d'une activité de vente classique. Elle suit un **cycle long et multi-étapes**, où chaque maillon doit être tracé et coordonné avec précision.
+
+#### Le cycle complet d'une commande en menuiserie
+
+```
+PROSPECT → DEVIS → SIGNATURE → COMMANDE FOURNISSEUR → FABRICATION → POSE → FACTURATION → SAV
+```
+
+| Étape | Description | Risque sans CRM |
+|-------|-------------|-----------------|
+| **1. Prise de contact** | Qualification du besoin, visite commerciale | Perte du lead, pas de relance |
+| **2. Devis sur mesure** | Chiffrage avec tarifs fabricants, matériaux, main d'œuvre | Erreurs de calcul, devis non relancés |
+| **3. Signature et commande** | Validation client, déclenchement commande fournisseur | Délai de transmission, oubli de commande |
+| **4. Fabrication / approvisionnement** | Suivi production atelier ou livraison fournisseur | Aucune visibilité sur les délais |
+| **5. Planification de pose** | Attribution d'une équipe, RDV client, date d'intervention | Conflits planning, client non informé |
+| **6. Réception chantier** | Rapport de pose signé, photos, conformité | Litiges non documentés |
+| **7. Facturation** | Émission facture, suivi paiement, relances | Retards de paiement, oubli de facturer |
+| **8. SAV et garantie** | Gestion des retours, réclamations, interventions | Perte historique, mécontentement client |
+
+#### Fonctionnalités indispensables d'un CRM pour la gestion des commandes en menuiserie
+
+Un CRM adapté à la menuiserie doit impérativement couvrir les fonctions suivantes :
+
+**a) Création et gestion des devis**
+- Accès aux tarifs fabricants (fenêtres, portes, volets, stores…)
+- Calcul automatique des montants HT/TTC
+- Gestion des variantes produits sur mesure (bois, PVC, aluminium)
+- Envoi du devis par email au format PDF
+- Suivi du statut : en attente, accepté, refusé, expiré
+- Relance automatique des devis non signés
+
+**b) Transformation devis → commande**
+- Conversion en un clic du devis en bon de commande
+- Génération automatique des commandes fournisseurs à la signature
+- Création du dossier chantier associé
+- Prévisionnel de facturation automatique
+
+**c) Suivi de fabrication et d'approvisionnement**
+- Suivi des délais fournisseurs
+- Gestion des stocks et des approvisionnements
+- Alertes sur les retards de livraison
+- Coordination atelier / équipe terrain
+
+**d) Planification des poses**
+- Agenda partagé pour les équipes de pose
+- Attribution des chantiers par disponibilité
+- Accès mobile aux fiches chantier (adresse, plans, notes)
+- Notification SMS/email du client pour les RDV
+
+**e) Réception et suivi chantier**
+- Rapport de pose numérique avec photos
+- Signature électronique sur tablette
+- Archivage automatique dans la fiche client
+- Gestion des réserves et non-conformités
+
+**f) Facturation et suivi des paiements**
+- Émission de la facture depuis la commande (sans ressaisie)
+- Suivi des encaissements et relances automatiques
+- Conformité facturation électronique (obligatoire septembre 2026)
+- Export comptable (Sage, EBP, etc.)
+
+**g) SAV et garanties**
+- Historique complet par client et par chantier
+- Gestion des interventions de SAV
+- Suivi des garanties fabricants et pose
+- Planification des entretiens et visites périodiques
+
+> Un CRM spécialisé menuiserie permet de centraliser toutes ces étapes dans un seul outil, éliminant les pertes d'information entre la prise de commande, la fabrication et la pose. Sans cet outil, chaque maillon du cycle est une source potentielle d'erreur, de retard ou de mécontentement client.
 
 ---
 
@@ -507,3 +578,4 @@ Pour une structure en phase de structuration avec un budget limité, Axonaut off
 ---
 
 *Compte rendu rédigé dans le cadre d'une étude interne — Menui Luxe — Mai 2026*
+
